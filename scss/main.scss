@@ -7,6 +7,9 @@ $font-family-sans-serif: 'Poppins', sans-serif;
 // Import Bootstrap from node-modules
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+// import Card scss
+@import "card";
+
 // All custom code
 body {
     background: #f6f6f6;
