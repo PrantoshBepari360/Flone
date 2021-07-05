@@ -10731,6 +10731,129 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.third-nav {
+  background-color: #f6f6f6;
+}
+.third-nav .container p {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.order-first li {
+  margin: -15px 0;
+}
+
+.hr hr {
+  margin: 0;
+}
+
+.dolor p {
+  margin-bottom: 0px;
+}
+.dolor span {
+  color: #ff1c1c;
+}
+
+.shop-area {
+  margin-top: 95px;
+  margin-bottom: 100px;
+}
+.shop-area .side-bar {
+  margin-right: 20px;
+}
+.shop-area .side-bar .side-bar-content h4, .shop-area .side-bar .side-bar-content .h4 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  color: #333;
+  margin-bottom: 30px;
+}
+.shop-area .side-bar .side-bar-content .slider-search {
+  width: 82%;
+  border: 1px solid #e2e2e2;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.shop-area .side-bar .side-bar-content .slider-search form input {
+  width: 80%;
+  outline: none;
+  border: 0;
+  padding: 9px 5px;
+}
+.shop-area .side-bar .side-bar-content .slider-search form button {
+  border: 0;
+  background: none;
+  border-left: 1px solid #e2e2e2;
+}
+.shop-area .side-bar .side-bar-content .sidebar-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+.shop-area .side-bar .side-bar-content .sidebar-list ul li button {
+  border: 0;
+  background: none;
+}
+.shop-area .side-bar .side-bar-content .side {
+  display: inline-block;
+  margin-right: 8px;
+}
+.shop-area .side-bar .side-bar-content .side li {
+  background: #f6f6f6;
+  border-radius: 50px;
+}
+.shop-area .side-bar .side-bar-content .side li button {
+  padding: 9px 16px 12px;
+  font-size: 14px;
+}
+.shop-area .shop-top-bar {
+  display: flex;
+  margin-bottom: 30px;
+}
+.shop-area .shop-top-bar .shop-select {
+  margin-right: 50px;
+}
+.shop-area .shop-top-bar .shop-select select {
+  font-size: 14px;
+  min-width: 143px;
+  outline: none;
+  padding: 5px;
+  color: #606060;
+  border: 1px solid #e6e6e6;
+}
+.shop-area .shop-top-bar .shop-tab {
+  margin-left: auto;
+}
+.shop-area .shop-pagination-bar {
+  margin-top: 30px;
+  text-align: center;
+}
+.shop-area .shop-pagination-bar ul {
+  list-style-type: none;
+  padding: 0;
+}
+.shop-area .shop-pagination-bar ul li {
+  display: inline-block;
+  border-radius: 100%;
+  box-shadow: 0 0 12px 0.8px rgba(0, 0, 0, 0.1) !important;
+}
+.shop-area .shop-pagination-bar ul li button {
+  font-size: 16px;
+  line-height: 43px;
+  display: inline-block;
+  width: 43px;
+  height: 43px;
+  padding: 0;
+  text-align: center;
+  color: #a749ff;
+  border: none;
+  border-radius: 100% !important;
+  background: none;
+}
+.shop-area .shop-pagination-bar ul li:hover button {
+  background-color: #a749ff;
+  color: #ffffff;
+}
+
 body {
   background: #f6f6f6;
   width: 100vw;
