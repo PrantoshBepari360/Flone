@@ -1,5 +1,6 @@
 .third-nav {
     background-color: #f6f6f6;
+
     .container {
         p {
             text-align: center;
@@ -9,7 +10,7 @@
 }
 
 .order-first {
-    li{
+    li {
         margin: -15px 0;
     }
 }
@@ -24,7 +25,8 @@
     p {
         margin-bottom: 0px;
     }
-    span{
+
+    span {
         color: #ff1c1c;
     }
 }
@@ -36,6 +38,7 @@
 
     .side-bar {
         margin-right: 20px;
+
         .side-bar-content {
             h4 {
                 font-size: 16px;
@@ -44,11 +47,13 @@
                 color: #333;
                 margin-bottom: 30px;
             }
+
             .slider-search {
                 width: 82%;
                 border: 1px solid #e2e2e2;
                 margin-top: 20px;
                 margin-bottom: 40px;
+
                 form {
                     input {
                         width: 80%;
@@ -56,6 +61,7 @@
                         border: 0;
                         padding: 9px 5px;
                     }
+
                     button {
                         border: 0;
                         background: none;
@@ -63,24 +69,29 @@
                     }
                 }
             }
+
             .sidebar-list {
                 ul {
                     list-style-type: none;
                     padding: 0;
+
                     li {
                         button {
                             border: 0;
                             background: none;
-                        } 
+                        }
                     }
                 }
             }
+
             .side {
                 display: inline-block;
                 margin-right: 8px;
+
                 li {
-                    background:#f6f6f6;
+                    background: #f6f6f6;
                     border-radius: 50px;
+
                     button {
                         padding: 9px 16px 12px;
                         font-size: 14px;
@@ -109,7 +120,7 @@
 
         .shop-tab {
             margin-left: auto;
-            
+
         }
 
     }
@@ -117,6 +128,7 @@
     .shop-pagination-bar {
         margin-top: 30px;
         text-align: center;
+
         ul {
             list-style-type: none;
             padding: 0;
@@ -124,7 +136,7 @@
             li {
                 display: inline-block;
                 border-radius: 100%;
-                box-shadow: 0 0 12px .8px rgba(0,0,0,.1)!important;
+                box-shadow: 0 0 12px .8px rgba(0, 0, 0, .1) !important;
 
                 button {
                     font-size: 16px;
@@ -136,7 +148,7 @@
                     text-align: center;
                     color: #a749ff;
                     border: none;
-                    border-radius: 100%!important;
+                    border-radius: 100% !important;
                     background: none;
                 }
 
@@ -149,4 +161,77 @@
     }
 }
 
+
+.third-nav {
+    margin-top: 10px;
+}
+
 // Shop area end
+
+.shop-product {
+    margin: 100px 0;
+
+    .large-image {
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .small-image {
+        width: 102%;
+        display: flex;
+        margin-top: 20px;
+
+        .small-image-icon {
+            padding: 0 10px;
+            padding-left: 0;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .product-details-content {
+
+        h2 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .prosuct-details-price {
+            margin: 15px 0 26px;
+        }
+
+        .prosuct-details-price span {
+            font-size: 24px;
+            color: #fe5252;
+
+        }
+
+        .prosuct-details-price .old {
+            font-size: 18px;
+            margin-left: 20px;
+            text-decoration: line-through;
+            color: #333;
+        }
+
+        .pro-details-rating-wrap {
+            display: flex;
+            align-items: center;
+            margin: 0 0 17px;
+
+            .yellow {
+                color: #ffa900;
+            }
+        }
+
+        .pro-details-list {
+            margin: 20px 0 34px;
+            padding: 0 0 37px;
+            border-bottom: 1px solid #e5e5e5;
+        }
+    }
+}
